@@ -64,6 +64,14 @@ While developing, you will probably rely mostly on `yarn start`; however, there 
 |`lint`             |[Lints](http://stackoverflow.com/questions/8503559/what-is-linting) the project for potential errors|
 |`lint:fix`         |Lints the project and [fixes all correctable errors](http://eslint.org/docs/user-guide/command-line-interface.html#fix)|
 
+## Yarn 
+Adding a dependency to different categories of dependencies
+```bash
+$ yarn add [package] --dev
+$ yarn add [package] --peer 
+$ yarn add [package] --optional
+```
+
 ## Project Structure
 
 The project structure presented in this boilerplate is **fractal**, where functionality is grouped primarily by feature rather than file type. This structure is only meant to serve as a guide, it is by no means prescriptive. That said, it aims to represent generally accepted guidelines and patterns for building scalable applications. If you wish to read more about this pattern, please check out this [awesome writeup](https://github.com/davezuko/react-redux-starter-kit/wiki/Fractal-Project-Structure) by [Justin Greenberg](https://github.com/justingreenberg).
