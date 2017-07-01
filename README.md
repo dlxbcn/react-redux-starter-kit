@@ -65,11 +65,25 @@ While developing, you will probably rely mostly on `yarn start`; however, there 
 |`lint:fix`         |Lints the project and [fixes all correctable errors](http://eslint.org/docs/user-guide/command-line-interface.html#fix)|
 
 ## Yarn 
+Adding a dependency
+```bash
+$ yarn add [package]
+$ yarn add [package]@[version]
+$ yarn add [package]@[tag]
+```
+
 Adding a dependency to different categories of dependencies
 ```bash
 $ yarn add [package] --dev
 $ yarn add [package] --peer 
 $ yarn add [package] --optional
+```
+
+Upgrading a dependency
+```bash
+$ yarn upgrade [package]
+$ yarn upgrade [package]@[version]
+$ yarn upgrade [package]@[tag]
 ```
 
 ## Project Structure
